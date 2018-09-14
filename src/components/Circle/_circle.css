@@ -1,0 +1,51 @@
+.title {
+    flex-grow: 1;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.innerCircle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    padding: 5px;
+    background: white;
+    overflow:hidden;
+    border: 2px solid grey;
+}
+
+.circleValue {
+    font-size: 22px;
+    color: grey;
+}
+
+.circleName {
+    color: grey;
+}
+
+.ytd {
+    display: inline-block;
+    width: 50%;
+    color: grey;
+}
+
+.ytd p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.pp {
+    display: inline-block;
+    width: 50%;
+    color: grey;
+}
+
+.pp p {
+    margin:0;
+    font-size:12px;
+}
+
+.ppValue {
+    color:rgb(48, 187, 60);
+}

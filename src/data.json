@@ -1,0 +1,71 @@
+{
+  "columns": [
+    {
+      "name": "Column 1",
+      "main_kpi": {
+        "name": "KPI 1",
+        "value": 167130000,
+        "trends": {
+          "ytd": null,
+          "pp": 7226.1
+        }
+      },
+      "secondary_kpis": [
+        {
+          "name": "Secondary KPI 1_1",
+          "value": 100150000
+        },
+        {
+          "name": "Secondary KPI 1_2",
+          "value": 5010
+        },
+        {
+          "name": "Secondary KPI 1_3",
+          "value": 100150000
+        },
+        {
+          "name": "Secondary KPI 1_4",
+          "value": 100150000
+        }
+      ]
+    },
+    {
+      "name": "Column 2",
+      "main_kpi": {
+        "name": "KPI",
+        "value": 4990,
+        "trends": {
+          "ytd": null,
+          "pp": 8228.9
+        }
+      },
+      "secondary_kpis": [
+        {
+          "name": "Secondary KPI 2_1",
+          "value": 5040
+        }
+      ]
+    },
+    {
+      "name": "Column 3",
+      "main_kpi": {
+        "name": "KPI 3",
+        "value": 167130000,
+        "trends": {
+          "ytd": null,
+          "pp": 7226.1
+        }
+      },
+      "secondary_kpis": [
+        {
+          "name": "Secondary KPI 3_1",
+          "value": 5020
+        },
+        {
+          "name": "Secondary KPI 3_2",
+          "value": 5010
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.textWrapper {
+    margin-bottom:20px;
+}
+
+.textTitle {
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.textValue {
+    font-size: 28px;
+    color: grey;
+    margin: 0;
+}
+
