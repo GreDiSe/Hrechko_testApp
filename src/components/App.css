@@ -4,3 +4,19 @@
   width: 100%;
   height: 100vh;
 }
+
+.AppMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+
+  .AppMobile {
+    display: block;
+  }
+
+  .App {
+    display: none
+  }
+
+}

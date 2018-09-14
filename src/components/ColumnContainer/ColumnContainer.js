@@ -16,7 +16,7 @@ export default class ColumnContainer extends Component {
                     circleData={main_kpi}
                 />
 
-                <div className="contentWrapper">
+                <div className="content_wrapper">
                     {
                         secondary_kpis.map( element => (
 

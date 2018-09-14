@@ -6,10 +6,10 @@ export default class Text extends Component {
         const { name, value } = this.props.text;
 
         return (
-            <div className="textWrapper">
+            <div className="text_container">
 
-                <p className="textTitle">{name}</p>
-                <p className="textValue">{value}</p>
+                <p className="text_container__title text">{name}</p>
+                <p className="text_container__value text">{value}</p>
 
             </div>
         )

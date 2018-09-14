@@ -1,16 +1,17 @@
-.textWrapper {
+.text_container {
     margin-bottom:20px;
 }
 
-.textTitle {
-    color: grey;
+.text_container__title {
     margin-bottom: 5px;
     font-size: 14px;
 }
 
-.textValue {
+.text_container__value {
     font-size: 28px;
-    color: grey;
     margin: 0;
 }
 
+.text {
+    color: grey;
+}

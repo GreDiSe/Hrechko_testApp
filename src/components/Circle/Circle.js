@@ -10,18 +10,18 @@ export default class Circle extends Component {
         return (
             <div>
                 <p className="title">{name}</p>
-                <div className="innerCircle">
-                    <p className="circleName">{circleData.name}</p>
-                    <p className="circleValue">{circleData.value}</p>
+                <div className="circle_container">
+                    <p className="circle_container__name">{circleData.name}</p>
+                    <p className="circle_container__value">{circleData.value}</p>
 
                     <div>
                         <div className="ytd">
-                            <p>{circleData.trends.ytl || "--"}</p>
-                            <p>YTD</p>
+                            <p className="circle_text">{circleData.trends.ytl || "--"}</p>
+                            <p className="circle_text">YTD</p>
                         </div>
-                        <div className="pp">
-                            <p className="ppValue">{circleData.trends.pp + " %"}</p>
-                            <p>PP</p>
+                        <div className="pp_container">
+                            <p className="circle_text pp_container__value">{circleData.trends.pp + " %"}</p>
+                            <p className='circle_text pp_container__text'>PP</p>
                         </div>
                     </div>
 

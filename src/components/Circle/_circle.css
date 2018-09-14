@@ -4,7 +4,7 @@
     text-transform: uppercase;
 }
 
-.innerCircle {
+.circle_container {
     height: 160px;
     width: 160px;
     border-radius: 50%;
@@ -15,12 +15,12 @@
     border: 2px solid grey;
 }
 
-.circleValue {
+.circle_container__value {
     font-size: 22px;
     color: grey;
 }
 
-.circleName {
+.circle_container__name {
     color: grey;
 }
 
@@ -30,22 +30,21 @@
     color: grey;
 }
 
-.ytd p {
-    margin: 0;
-    font-size: 12px;
-}
-
-.pp {
+.pp_container {
     display: inline-block;
     width: 50%;
     color: grey;
 }
 
-.pp p {
-    margin:0;
-    font-size:12px;
+.circle_text {
+    margin: 5px;
+    font-size: 12px;
 }
 
-.ppValue {
-    color:rgb(48, 187, 60);
+.pp_container__value {
+    color: green;
+}
+
+.pp_container__text {
+    color: grey
 }
